@@ -1,19 +1,20 @@
 {
-  "name": "app-model",
-  "version": "1.0.0",
+  "name": "ts-5.3",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "build": "tsc",
     "dev": "nodemon",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
-    "lint": "eslint --ignore-path .eslintignore --ext .js,.ts",
+    "lint": "eslint --ignore-path .eslintignore,.gitignore --ext .js,.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@total-typescript/ts-reset": "^0.5.1",
     "@types/node": "^20.10.5",
     "@typescript-eslint/eslint-plugin": "^6.16.0",
     "@typescript-eslint/parser": "^6.16.0",
